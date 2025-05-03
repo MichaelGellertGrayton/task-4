@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+@media (min-width: 600px) {
+    .col {
+        width: 8.3333%;
+        height: 300px;
+    }
+}
+
+.col-Royal-blue {
+    background-color: #0A2463;
+}
+
+.col-Red-Salsa {
+    background-color: #FB3640;
+}
+
+.col-Granite-gray {
+    background-color: #605F5E;
+}
+
+.col-CG-blue {
+    background-color: #247BA0;
+}
+
+.col-Key-lime {
+    background-color: #EAF27C;
+}
+
+.col-Dark-purple {
+    background-color: #370031;
+}
+
+.col-Brick-red {
+    background-color: #CE4760;
+}
+
+.col-Cadmium-orange {
+    background-color: #F28F3B;
+}
+
+.col-Steel-Teal {
+    background-color: #588B8B;
+}
+
+.col-Bluetiful {
+    background-color: #446DF6;
+}
+
+.col-Peach {
+    background-color: #FECDAA;
+}
+
+.col-Olive-Drab {
+    background-color: #392A16;
+}
